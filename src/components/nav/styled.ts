@@ -16,7 +16,6 @@ export const Header = styled.header`
   left: 180px;
   right: 180px;
   height: auto;
-  padding: 12px;
 
   div {
     display: flex;
