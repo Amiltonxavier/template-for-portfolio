@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 62px 30px;
   grid-auto-flow: row;
+  margin: auto;
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, minmax(0, 1fr));

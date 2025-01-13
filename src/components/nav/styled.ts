@@ -37,7 +37,7 @@ export const Header = styled.header`
   @media (max-width: 768px) {
     left: 16px;
     right: 16px;
-    padding: 8px;
+    padding: 18px;
     div {
       gap: 12px;
       padding-right: 8px;

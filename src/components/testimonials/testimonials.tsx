@@ -3,7 +3,7 @@ import { Container, Description, MainWrapper, Title } from "../common/common";
 import { Wrapper } from "./style";
 import { TestimonialsCard } from "./testimonials-card/testimonials-card";
 
-export default function Testimonials() {
+export function Testimonials() {
     return (
         <Container color={colorType.dark}>
             <MainWrapper>

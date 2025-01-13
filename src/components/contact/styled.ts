@@ -4,10 +4,12 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
+
   margin: auto;
+  width: 100%;
+  @media (min-width: 768px) {
+    width: fit-content;
+  }
 `;
 
 export const Label = styled.label`

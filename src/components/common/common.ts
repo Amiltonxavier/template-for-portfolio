@@ -127,6 +127,7 @@ export const MainWrapper = styled.div`
   padding-inline: ${size["w-12"]};
   flex-direction: column;
   gap: 60px;
+  margin: auto;
 
   @media (min-width: 1024px) {
     padding-inline: ${size["w-44"]};

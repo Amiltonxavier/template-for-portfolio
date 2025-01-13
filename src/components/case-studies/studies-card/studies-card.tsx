@@ -1,8 +1,8 @@
-import { Img, Wrapper, Badge, Card, Header, Button } from "./style";
+import { Img, Wrapper, Badge, Card, Header } from "./style";
 import caseImg from "../../../assets/maskgroup.png"
 import { ChevronRight } from "lucide-react";
 import type { StudiesProps } from "../../../types/studies";
-import { Description, Title } from "../../common/common";
+import { Button, Description, Title } from "../../common/common";
 import { colorType } from "../../../types/common";
 
 type Props = {
@@ -22,7 +22,7 @@ export function StudiesCard({ item }: Props) {
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         sed do eiusmod tempor incididunt ut labore et dolore magna.
                     </Description>
-                    <Button type="button" color={item.color}>
+                    <Button styles={{ bg: item.color }} type="button" color={item.color}>
                         View case study <ChevronRight size={20} color="#fff" />
                     </Button>
                 </Wrapper>
